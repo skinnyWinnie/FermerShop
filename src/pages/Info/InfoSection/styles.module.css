@@ -1,0 +1,27 @@
+.infoSection {
+    padding: 0 90px;
+    background-color: #D8ECFE;
+    display: flex;
+}
+.wrapper {
+    flex: 1;
+}
+.mainHeader {
+    font-size: 44px;
+    margin-top: 183px;
+    margin-bottom: 24px;
+    padding-right: 165px;
+
+}
+.mainTxt {
+    font-size: 18px;
+    padding-right: 370px;
+    line-height: 1.5em;
+}
+.imgWrapper {
+    flex: 1;
+    background: url('../../../../public/Img/Ellipse 8.png') no-repeat  100% 50%;
+}
+.mainImg {
+    margin: 56px 87px 0 auto;
+}

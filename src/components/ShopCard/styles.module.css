@@ -1,0 +1,53 @@
+.item {
+  padding: 20px;
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  width: 727px;
+}
+
+.cardHeader {
+  font-size: 24px;
+  line-height: 115%;
+  font-weight: Bold;
+  margin-bottom: 20px;
+}
+.tabsWrapper {
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+.cardTxt {
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--black-color);
+    margin-bottom: 35px;
+}
+.priceWeight {
+    padding: 4px 8px;
+    background-color: var(--lightblue-color);
+    font-weight: bold;
+}
+.charList {
+    list-style: none;
+}
+.charItem {
+    margin-bottom: 18px;
+    line-height: 150%;
+}
+.charItem:last-child {
+    margin-bottom: 0;
+}
+.propertyChar {
+    font-weight: bold;
+}
+.structureList {
+    list-style: none;
+}
+.structureItem {
+    margin-bottom: 20px;
+}
+.structureProperty {
+    font-weight: bold;
+
+}

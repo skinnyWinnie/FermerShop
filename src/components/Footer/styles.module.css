@@ -1,0 +1,20 @@
+.footer {
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerWraper {
+    display: flex;
+    align-items: center;
+}
+.headerLogo {
+    height: 44px;
+    margin: 8px 24px 8px 0;
+}
+.headerTxt {
+    font-size: 28px;
+}
+.footerTxt {
+    font-size: 18px;
+}

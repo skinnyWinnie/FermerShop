@@ -1,0 +1,50 @@
+/* normalize.css */
+html {
+  font-family: sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+button,
+input,
+textarea,
+select {
+  border-radius: 0;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}

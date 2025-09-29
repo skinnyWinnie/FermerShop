@@ -1,0 +1,7 @@
+.buyButton {
+    border: none;
+    background-color: var(--orange-color);
+    color: #fff;
+    font-size: 18px;
+    padding: 16px 97px;
+}

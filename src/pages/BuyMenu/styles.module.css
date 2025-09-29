@@ -1,0 +1,121 @@
+.buyMenu {
+    background-color: var(--gray-color);
+    padding: 40px 90px;
+    display: flex;
+    gap: 20px;
+}
+.filters {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 20px;
+    max-width: 353px;
+    margin-bottom: 18px;
+}
+.formHeader {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.filters label {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters>label>span {
+    font-size: 18px;
+    line-height: 150%;
+}
+.filters>label:last-child {
+    padding-bottom: 0;
+}
+
+/*Кастом чекбокс*/
+.customCheckbox {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.customCheckbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  margin-left: 10px;
+}
+
+.customCheckbox input[type="checkbox"]:checked ~ .checkmark {
+  background-color: var(--orange-color);
+  border-color: #E38C23;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.customCheckbox input[type="checkbox"]:checked ~ .checkmark:after {
+  display: block;
+}
+
+/*Форма с общей ценой*/
+
+.orderForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 353px;
+    background-color: #fff;
+    padding: 20px;
+}
+.orderFormHeader {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+/* .address {
+    width: 313px;
+    height: 48px;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    border-color: #DEDEDE;
+} */
+.priceTxt {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.price {
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: Bold;
+    margin-bottom: 32px;
+}
+
+/*список товаров*/
+
+.listItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 75vh;
+    overflow: scroll;
+}
